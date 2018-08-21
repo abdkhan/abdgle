@@ -78,3 +78,4 @@ if(substr($keyword, 0, 8)=='related:'){
 $ukey = urlencode($keyword);
 
 echo get_content($ukey);
+?>
